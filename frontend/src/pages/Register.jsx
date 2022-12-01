@@ -7,7 +7,6 @@ export const Register = () => {
     password: "",
     confirmPassword: "",
   });
-
   const handleChange = ({ target }) => {
     setFormData((prev) => ({
       ...prev,
