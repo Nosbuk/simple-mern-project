@@ -13,7 +13,7 @@ export const Register = () => {
       [target.name]: target.value,
     }));
   };
-
+  console.log("ended 37:25");
   const handleSubmit = (event) => {
     event.preventDefault();
   };
