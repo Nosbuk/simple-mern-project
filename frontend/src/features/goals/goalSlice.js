@@ -1,4 +1,4 @@
-import {createSlice, createAsyncThunk} from "redux-toolkit"
+import {createSlice, createAsyncThunk} from "@reduxjs/toolkit"
 
 const initialState = {
     goals: [],
@@ -15,3 +15,6 @@ export const goalSlice = createSlice({
         reset: (state) => initialState
     }
 })
+
+export const {reset} = goalSlice.actions
+export default goalSlice.reducer
