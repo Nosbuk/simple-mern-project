@@ -11,5 +11,8 @@ export const Dashboard = () => {
       navigate("/login")
     }
   }, user, navigate)
-  return <div>Dashboard</div>;
+  return <><section className="heading">
+      <h1>Welcome {user}</h1>
+      <p>Goals Dashboard</p>
+    </section></>;
 };
